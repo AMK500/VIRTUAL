@@ -340,7 +340,11 @@ article:hover {
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
+
+  .section-crypto {
+    z-index: 0;
+  }
 
 }
 
