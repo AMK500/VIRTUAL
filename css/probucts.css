@@ -285,7 +285,7 @@ h1 {
   height: 539px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 .item-crypto {
@@ -485,7 +485,7 @@ h1 {
   width: 100px;
   height: 100px;
   border-radius: 5px;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 .item-what .h3-white {
@@ -601,7 +601,7 @@ h1 {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 .user .text {

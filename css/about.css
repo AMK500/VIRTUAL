@@ -285,7 +285,7 @@ h1 {
   height: 539px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 .item-crypto {
@@ -487,7 +487,7 @@ h1 {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 .text-item-what {
@@ -660,7 +660,7 @@ h1 {
   height: 327px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: var(--background-divs);
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
@@ -869,7 +869,7 @@ h1 {
   width: 65px;
   height: 65px;
   border-radius: 50%;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 .user .text {

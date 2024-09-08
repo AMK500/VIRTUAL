@@ -281,7 +281,7 @@ h1 {
   max-width: 600px;
   height: 305px;
   border-radius: 5px;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 .item-crypto {
@@ -561,7 +561,7 @@ h1 {
   width: 600px;
   height: 563px;
   border-radius: 5px;
-  background: var(--background-divs);
+  overflow: hidden;
 }
 
 @media (max-width: 1200px) {
