@@ -11,10 +11,9 @@ p, ul, li, h1, h2, h3, h4, h5, h6 {
 header {
   padding: 15px;
   position: absolute;
-  top: 0px;
+  top: 10px;
   width: 100%;
   z-index: 5;
-  background: var(--background-primary);
 }
 
 .nav-header {
@@ -137,10 +136,6 @@ button:focus:not(:focus-visible) {
     display: none;
   }
 
-  .navbar {
-    display: block;
-  }
-  
   header .link-2-header {
     display: none;
   }
@@ -156,29 +151,8 @@ button:focus:not(:focus-visible) {
   }
 }
 
-@media (max-width: 450px) {
-
-  header .row {
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .navbar-nav {
-    text-align: center;
-  }
-
-  .link-green-home a, .container-fluid button {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-}
 
 
-
-
-
- 
 /* #endregion HEADER */
 
 
@@ -536,7 +510,82 @@ footer {
   fill: var(--clr-green);
 }
 
-/* #endregion Keyboard */
 .ul-top-footer .active {
   color: var(--clr-green);
 }
+/* #endregion Keyboard */
+
+
+
+
+/* #region button */
+
+#offcanvasRight .row-ul-header {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#offcanvasRight .link-green-home {
+  margin-top: 30px;
+}
+
+button:focus:not(:focus-visible),
+.btn-primary,
+.btn:hover,
+.btn:hover {
+  padding: 0;
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  padding: 0;
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+}
+
+button:focus {
+  padding: 0;
+}
+
+button:focus:not(:focus-visible) {
+  margin-right: .5px;
+  margin-top: .5px;
+  box-shadow: none;
+  padding-bottom: 5px;
+}
+
+#offcanvasRight {
+  width: 250px;
+  background: #37373791;
+  color: #FFF;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  padding: 15px 30px;
+}
+
+.btn-close {
+  background: transparent;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 0;
+  color: #03C4A1;
+}
+
+.btn-close:hover {
+  color: #03C4A1;
+}
+
+@media (min-width: 1121px) {
+  .btn-primary,
+  #offcanvasRight {
+    display: none;
+  }
+}
+
+
+/* #endregion button */
