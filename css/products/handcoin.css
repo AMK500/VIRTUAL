@@ -666,7 +666,6 @@ h1 {
 }
 
 .carousel-indicators [data-bs-target] {
-  transition: all 0.3s;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -1002,5 +1001,11 @@ button:focus:not(:focus-visible) {
   }
 }
 
+.section-Star button:focus:not(:focus-visible) {
+  background: #03C4A1;
+  margin-right: 7px;
+  margin-top: 10px;
+  padding-bottom: 0;
+}
 
 /* #endregion button */
