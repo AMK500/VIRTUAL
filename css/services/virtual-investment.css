@@ -532,7 +532,7 @@ h1 {
 }
 
 .img-Us {
-  width: 600px;
+  max-width: 600px;
   height: 563px;
   border-radius: 5px;
   overflow: hidden;
